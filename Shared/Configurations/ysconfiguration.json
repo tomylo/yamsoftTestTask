@@ -1,0 +1,14 @@
+{
+  //PRODUCTION  json configuration!!
+  "YSConfiguration": {
+    "DbSettings": {
+      "ConnectionString":""
+    },
+    "JwtSettings": {
+      "Audience": "",
+      "Secret": "",
+      "Issuer": "",
+      "TokenLifetime": ""
+    }
+  }
+}
