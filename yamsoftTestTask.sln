@@ -3,11 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{D4E84113-FB1A-4BBD-AC47-C9C0B06478F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{D4E84113-FB1A-4BBD-AC47-C9C0B06478F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3AF51A60-5DF9-4942-B5FE-42C1044731C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{3AF51A60-5DF9-4942-B5FE-42C1044731C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{1787EA5A-18C2-4B76-926C-84A2391178F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{1787EA5A-18C2-4B76-926C-84A2391178F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{D66C6027-1ADD-4970-A849-2EF41251E10F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBRepo", "DBRepo\DBRepo.csproj", "{570BCE7D-EFF4-4C73-AC87-EEA3D7AAD967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A838D6A-5B94-4D08-8CC9-711D88D79114}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{B5A9905A-A3F9-4381-9E3C-90FB17E99444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +38,18 @@ Global
 		{1787EA5A-18C2-4B76-926C-84A2391178F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1787EA5A-18C2-4B76-926C-84A2391178F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1787EA5A-18C2-4B76-926C-84A2391178F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66C6027-1ADD-4970-A849-2EF41251E10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66C6027-1ADD-4970-A849-2EF41251E10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66C6027-1ADD-4970-A849-2EF41251E10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66C6027-1ADD-4970-A849-2EF41251E10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570BCE7D-EFF4-4C73-AC87-EEA3D7AAD967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570BCE7D-EFF4-4C73-AC87-EEA3D7AAD967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570BCE7D-EFF4-4C73-AC87-EEA3D7AAD967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570BCE7D-EFF4-4C73-AC87-EEA3D7AAD967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A9905A-A3F9-4381-9E3C-90FB17E99444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A9905A-A3F9-4381-9E3C-90FB17E99444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A9905A-A3F9-4381-9E3C-90FB17E99444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A9905A-A3F9-4381-9E3C-90FB17E99444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,13 +2,23 @@
   //PRODUCTION  json configuration!!
   "YSConfiguration": {
     "DbSettings": {
-      "ConnectionString":""
+      "ConnectionString": ""
     },
     "JwtSettings": {
       "Audience": "",
       "Secret": "",
       "Issuer": "",
       "TokenLifetime": ""
+    },
+    "LogSettings": {
+      "Folder": "c:\\logs\\",
+      "RollingInterval": "3", //daily
+      "TableName": "LogEntity",
+      "LogEventLevel": "1" //debug 
+    },
+    "GenericSettings": {
+      "CheckForSeedData": true,
+      "ApiServer":""
     }
   }
 }

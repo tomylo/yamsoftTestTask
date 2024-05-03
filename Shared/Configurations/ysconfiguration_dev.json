@@ -9,6 +9,16 @@
       "Secret": "D0E301FE-8D19-4B91-9714-D9AB31956194",
       "Issuer": "https://ysSite.com",
       "TokenLifetime": "1.00:00:00" // one day.
+    },
+    "LogSettings": {
+      "Folder": "c:\\logs\\",
+      "RollingInterval": "3", //daily
+      "TableName": "LogEntity",
+      "LogEventLevel": "1" //debug 
+    },
+    "GenericSettings": {
+      "CheckForSeedData": true,
+      "ApiServer": "https://localhost:7154"
     }
   }
 }
